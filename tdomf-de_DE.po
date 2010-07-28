@@ -250,24 +250,24 @@ msgstr "Nachrichten zurückgesetzt."
 #: admin/tdomf-form-hacker.php:258
 #: tdomf.php:670
 msgid "Form Hacker"
-msgstr "Personnalisation de formulaire"
+msgstr "Formularanpassung"
 
 #: admin/tdomf-form-hacker.php:236
 #, php-format
 msgid "Invalid Form ID %s specified!"
-msgstr "Le numéro de formulaire %s spécifié est invalide!"
+msgstr "Ungültige Formular ID %s angegeben!"
 
 #: admin/tdomf-form-hacker.php:238
 msgid "No Form ID specified!"
-msgstr "Numéro de Formulaire non précisé!"
+msgstr "Keine Formular ID %s angegeben!"
 
 #: admin/tdomf-form-hacker.php:243
 msgid "Form Diff"
-msgstr "Comparaison de formulaire"
+msgstr "Formularvergleich"
 
 #: admin/tdomf-form-hacker.php:260
 msgid "Message Hacker"
-msgstr "Personnalisation message"
+msgstr "Nachrichtenanpassung"
 
 #: admin/tdomf-form-hacker.php:286
 #: admin/tdomf-moderation.php:337
@@ -276,15 +276,15 @@ msgstr "Formular"
 
 #: admin/tdomf-form-hacker.php:287
 msgid "Messages"
-msgstr "Messages"
+msgstr "Nachrichten"
 
 #: admin/tdomf-form-hacker.php:288
 msgid "Show Help"
-msgstr "Montrer l'aide"
+msgstr "Hilfe anzeigen"
 
 #: admin/tdomf-form-hacker.php:289
 msgid "Hide Help"
-msgstr "Cacher l'aide"
+msgstr "Hilfe verstecken"
 
 #: admin/tdomf-form-hacker.php:296
 msgid "You can use this page to modify any messages outputed from TDOMF for your form. From here you can change the post published messages, post held in moderation, etc. etc."
