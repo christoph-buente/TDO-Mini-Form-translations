@@ -288,85 +288,85 @@ msgstr "Hilfe verstecken"
 
 #: admin/tdomf-form-hacker.php:296
 msgid "You can use this page to modify any messages outputed from TDOMF for your form. From here you can change the post published messages, post held in moderation, etc. etc."
-msgstr "Vous pouvez utiliser cette page pour modifier les messages générés par TDOMF pour votre formulaire. (message publié, message mis en file de modération ...)"
+msgstr "Auf dieser Seite können Sie alle Nachrichten editieren, die von TDOMF für Ihre Formular ausgegeben werden. Zum Beispiel die Nachricht, welche angezeigt wird, wenn ein Beitrag gespeichert wurde, oder wenn ein Beitrag zur Moderation in der Warteschlagen gehalten wird. Usw..."
 
 #: admin/tdomf-form-hacker.php:298
 msgid "PHP code can be included in the hacked messages. Also TDOMF will automatically expand these macro strings:"
-msgstr "Du code PHP peur être inclus dans les formulaires personnalisés. TDOMF exploite également automatiquement les chaines de macro suivantes:"
+msgstr "PHP Code kann in den bearbeiteten Nachrichten integriert werden. Ausserdem wird TDOMF autotisch folgende Macro Texte ersetzen:"
 
 #: admin/tdomf-form-hacker.php:300
 #: admin/tdomf-form-hacker.php:399
 #: widgets/tdomf-text-widget.php:119
 #, php-format
 msgid "<code>%s</code> - User name of the currently logged in user"
-msgstr "<code>%s</code> - Nom de l'utilisateur connecté"
+msgstr "<code>%s</code> - Benutzername des aktuell eingeloggten Benutzers"
 
 #: admin/tdomf-form-hacker.php:301
 #: admin/tdomf-form-hacker.php:400
 #: widgets/tdomf-text-widget.php:120
 #, php-format
 msgid "<code>%s</code> - IP of the current visitor"
-msgstr "<code>%s</code> - Adresse IP du visiteur en cours"
+msgstr "<code>%s</code> - IP Adresse des Besuchers"
 
 #: admin/tdomf-form-hacker.php:302
 #: admin/tdomf-form-hacker.php:403
 #: widgets/tdomf-text-widget.php:121
 #, php-format
 msgid "<code>%s</code> - The ID of the current form (which is currently %d)"
-msgstr "<code>%s</code> - Numéro du formulaire en cours  (acteuellement %d)"
+msgstr "<code>%s</code> - Die ID des aktuellen Formulars (aktuell: %d)"
 
 #: admin/tdomf-form-hacker.php:303
 #: admin/tdomf-form-hacker.php:404
 #: widgets/tdomf-text-widget.php:122
 #, php-format
 msgid "<code>%s</code> - Name of the Form (set in options)"
-msgstr "<code>%s</code> - Nom du formulaire (mis à jour dans les options)"
+msgstr "<code>%s</code> - Name des Formulars (in den Optionen gesetzt)"
 
 #: admin/tdomf-form-hacker.php:304
 #: admin/tdomf-form-hacker.php:405
 #: widgets/tdomf-text-widget.php:123
 #, php-format
 msgid "<code>%s</code> - Form Description (set in options)"
-msgstr "<code>%s</code> - description du Formulaire (mis à jour dans les options)"
+msgstr "<code>%s</code> - Formularbeschreibung (in den Optionen gesetzt)"
 
 #: admin/tdomf-form-hacker.php:305
 #, php-format
 msgid "<code>%s</code> - Submission Errors"
-msgstr "<code>%s</code> - Erreurs du dépôt"
+msgstr "<code>%s</code> - Fehler beim Speichern"
 
 #: admin/tdomf-form-hacker.php:306
 #, php-format
 msgid "<code>%s</code> - URL of Submission"
-msgstr "<code>%s</code> - URL du Dépôt"
+msgstr "<code>%s</code> - Url des Speicherung"
 
 #: admin/tdomf-form-hacker.php:307
 #, php-format
 msgid "<code>%s</code> - Date of Submission"
-msgstr "<code>%s</code> - Date du dépôt"
+msgstr "<code>%s</code> - Speicherdatum"
 
 #: admin/tdomf-form-hacker.php:308
 #, php-format
 msgid "<code>%s</code> - Time of Submission"
-msgstr "<code>%s</code> - Heure du dépôt"
+msgstr "<code>%s</code> - Zeit der Eingabe"
 
 #: admin/tdomf-form-hacker.php:309
 #, php-format
 msgid "<code>%s</code> - Title of Submission"
-msgstr "<code>%s</code> - Titre du dépôt "
+msgstr "<code>%s</code> - Titel der Eingabe"
 
 #: admin/tdomf-form-hacker.php:319
 #: admin/tdomf-form-hacker.php:381
 #: admin/tdomf-form-hacker.php:417
 #: admin/tdomf-form-hacker.php:480
 msgid "Save &raquo;"
-msgstr "Sauvegarder &raquo;"
+msgstr "Speichern &raquo;"
 
 #: admin/tdomf-form-hacker.php:320
 #: admin/tdomf-form-hacker.php:382
 #: admin/tdomf-form-hacker.php:418
 #: admin/tdomf-form-hacker.php:481
 msgid "Reset &raquo;"
-msgstr "Réinitialiser &raquo;"
+msgstr "Zurücksetzen &raquo;"
 
 #: admin/tdomf-form-hacker.php:324
 msgid "Submission Published"
@@ -626,24 +626,24 @@ msgstr "Utilisateurs de Confiance"
 
 #: admin/tdomf-manage.php:234
 msgid "There are no users to moderate with this filter."
-msgstr "Il n'y a d'utilisateurs à modérer en utilisant ce filtre."
+msgstr "Es gibt keine moderierbaren Benutzer mit diesem Filter"
 
 #: admin/tdomf-manage.php:272
 #: admin/tdomf-moderation.php:332
 msgid "ID"
-msgstr "Numéro (ID)"
+msgstr "ID"
 
 #: admin/tdomf-manage.php:273
 msgid "Login"
-msgstr "Connexion"
+msgstr "Login"
 
 #: admin/tdomf-manage.php:274
 msgid "Display Name"
-msgstr "Montrer le nom"
+msgstr "Anzeigename"
 
 #: admin/tdomf-manage.php:275
 msgid "Role"
-msgstr "Rôle"
+msgstr "Rolle"
 
 #: admin/tdomf-manage.php:276
 #: admin/tdomf-manage.php:472
@@ -668,14 +668,14 @@ msgstr "-"
 #: admin/tdomf-manage.php:327
 #: admin/tdomf-manage.php:501
 msgid "Un-ban"
-msgstr "Dé-bannir"
+msgstr "Bannung aufheben"
 
 #: admin/tdomf-manage.php:329
 #: admin/tdomf-manage.php:356
 #: admin/tdomf-manage.php:503
 #: admin/tdomf-manage.php:524
 msgid "Ban"
-msgstr "Bannir"
+msgstr "Bannen"
 
 #: admin/tdomf-manage.php:336
 msgid "Un-trust"
@@ -689,7 +689,7 @@ msgstr "De Confiance"
 #: admin/tdomf-manage.php:358
 #: admin/tdomf-manage.php:526
 msgid "Reset"
-msgstr "Ré-initialiser"
+msgstr "Zurücksetzen"
 
 #: admin/tdomf-manage.php:367
 #: admin/tdomf-manage.php:535
