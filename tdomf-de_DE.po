@@ -288,7 +288,7 @@ msgstr "Hilfe verstecken"
 
 #: admin/tdomf-form-hacker.php:296
 msgid "You can use this page to modify any messages outputed from TDOMF for your form. From here you can change the post published messages, post held in moderation, etc. etc."
-msgstr "Auf dieser Seite können Sie alle Nachrichten editieren, die von TDOMF für Ihre Formular ausgegeben werden. Zum Beispiel die Nachricht, welche angezeigt wird, wenn ein Beitrag gespeichert wurde, oder wenn ein Beitrag zur Moderation in der Warteschlagen gehalten wird. Usw..."
+msgstr "Auf dieser Seite können Sie alle Nachrichten editieren, die von TDOMF für Ihr Formular ausgegeben werden. Zum Beispiel die Nachricht, welche angezeigt wird, wenn ein Beitrag gespeichert wurde, oder wenn ein Beitrag zur Freigabe in der Warteschlagen gehalten wird. Usw..."
 
 #: admin/tdomf-form-hacker.php:298
 msgid "PHP code can be included in the hacked messages. Also TDOMF will automatically expand these macro strings:"
@@ -337,22 +337,22 @@ msgstr "<code>%s</code> - Fehler beim Speichern"
 #: admin/tdomf-form-hacker.php:306
 #, php-format
 msgid "<code>%s</code> - URL of Submission"
-msgstr "<code>%s</code> - Url des Speicherung"
+msgstr "<code>%s</code> - Url des Beitrags"
 
 #: admin/tdomf-form-hacker.php:307
 #, php-format
 msgid "<code>%s</code> - Date of Submission"
-msgstr "<code>%s</code> - Speicherdatum"
+msgstr "<code>%s</code> - Datum des Beitrags"
 
 #: admin/tdomf-form-hacker.php:308
 #, php-format
 msgid "<code>%s</code> - Time of Submission"
-msgstr "<code>%s</code> - Zeit der Eingabe"
+msgstr "<code>%s</code> - Zeit des Beitrags"
 
 #: admin/tdomf-form-hacker.php:309
 #, php-format
 msgid "<code>%s</code> - Title of Submission"
-msgstr "<code>%s</code> - Titel der Eingabe"
+msgstr "<code>%s</code> - Titel des Beitrags"
 
 #: admin/tdomf-form-hacker.php:319
 #: admin/tdomf-form-hacker.php:381
@@ -370,43 +370,43 @@ msgstr "Zurücksetzen &raquo;"
 
 #: admin/tdomf-form-hacker.php:324
 msgid "Submission Published"
-msgstr "Dépôt publié"
+msgstr "Beitrag veröffentlicht"
 
 #: admin/tdomf-form-hacker.php:330
 msgid "Submission Queued"
-msgstr "Dépôt mis en file d'attente"
+msgstr "Beitrag in der Warteschlange eingereiht"
 
 #: admin/tdomf-form-hacker.php:336
 msgid "Submission is Spam"
-msgstr "Ce dépôt est un spam"
+msgstr "Beitrag ist SPAM"
 
 #: admin/tdomf-form-hacker.php:342
 msgid "Submission awaiting Moderation"
-msgstr "Dépôt en attente de modération"
+msgstr "Beitrag wartet auf Freigabe"
 
 #: admin/tdomf-form-hacker.php:347
 msgid "Submission contains Errors"
-msgstr "Dépôt contenant des erreurs"
+msgstr "Beitrag enthält noch Fehler"
 
 #: admin/tdomf-form-hacker.php:351
 msgid "Banned User"
-msgstr "Utilisateur banni"
+msgstr "Gebannter Benutzer"
 
 #: admin/tdomf-form-hacker.php:355
 msgid "Banned IP"
-msgstr "Adresse IP bannie"
+msgstr "Gebannte IP Adresse"
 
 #: admin/tdomf-form-hacker.php:361
 msgid "Throttled Submission"
-msgstr "Dépôt restreint"
+msgstr "Gedrosselter Beitrag"
 
 #: admin/tdomf-form-hacker.php:367
 msgid "Denied User"
-msgstr "Utilisateur refusé"
+msgstr "Abgelehnter Benutzer"
 
 #: admin/tdomf-form-hacker.php:373
 msgid "Banned Unregistered User"
-msgstr "U"
+msgstr "Gebannter unregistrierter Benutzer"
 
 #: admin/tdomf-form-hacker.php:391
 msgid "You can use this page to hack the generated HTML code for your form without modifing the code of TDOMF. Please only do this if you know what you are doing. From here you can modify titles, default values, re-arrange fields, etc. etc."
@@ -428,12 +428,12 @@ msgstr "Du code PHP peut être inclus dans le formulaire personnalisé. TDOMF ex
 #: admin/tdomf-form-hacker.php:401
 #, php-format
 msgid "<code>%s</code> - The form's unique key"
-msgstr "<code>%s</code> - Clé unique du formulaire"
+msgstr "<code>%s</code> - Eindeutiger Schlüssel für das Formular"
 
 #: admin/tdomf-form-hacker.php:402
 #, php-format
 msgid "<code>%s</code> - The current URL of the form"
-msgstr "<code>%s</code> - URL courante du formulaire"
+msgstr "<code>%s</code> - Url für das Formular"
 
 #: admin/tdomf-form-hacker.php:406
 #, php-format
@@ -443,11 +443,11 @@ msgstr "<code>%s</code> - Affichage de formulaire (comme les prévisualisations,
 #: admin/tdomf-form-hacker.php:407
 #, php-format
 msgid "<code>%swidget-name%s</code> - Original, unmodified output from 'widget-name'"
-msgstr "<code>%swidget-name%s</code> - Affichage original non modifié depuis 'widget-name'"
+msgstr "<code>%swidget-name%s</code> - Original, unbearbeitete Ausgabe von 'widget-name'"
 
 #: admin/tdomf-form-hacker.php:423
 msgid "Core Form"
-msgstr "Formulaire de base"
+msgstr "Basisformular"
 
 #: admin/tdomf-form-hacker.php:433
 msgid "You can diff the hacked form to see what you have changed"
@@ -467,7 +467,7 @@ msgstr "Comparer le formulaire courant avec le formualire précédent"
 
 #: admin/tdomf-form-hacker.php:450
 msgid "Form Preview"
-msgstr "Pré-visualisation du formulaire"
+msgstr "Formularvorschau"
 
 #: admin/tdomf-form-hacker.php:458
 msgid "You can diff the hacked preview to see what you have changed"
@@ -487,121 +487,121 @@ msgstr "Comparer la previsualisation courante avec la prévisualistion précéde
 
 #: admin/tdomf-info.php:27
 msgid "decade"
-msgstr "décade"
+msgstr "Dekade"
 
 #: admin/tdomf-info.php:28
 msgid "year"
-msgstr "année"
+msgstr "Jahr"
 
 #: admin/tdomf-info.php:29
 msgid "month"
-msgstr "mois"
+msgstr "Monat"
 
 #: admin/tdomf-info.php:30
 msgid "week"
-msgstr "semaine"
+msgstr "Woche"
 
 #: admin/tdomf-info.php:31
 msgid "day"
-msgstr "jour"
+msgstr "Tag"
 
 #: admin/tdomf-info.php:32
 msgid "hour"
-msgstr "heure"
+msgstr "Stunde"
 
 #: admin/tdomf-info.php:33
 msgid "minute"
-msgstr "minute"
+msgstr "Minute"
 
 #: admin/tdomf-info.php:34
 msgid "second"
-msgstr "seconde"
+msgstr "Sekunde"
 
 #: admin/tdomf-info.php:50
 msgid " ago"
-msgstr " (il y a)"
+msgstr "vor"
 
 #: admin/tdomf-info.php:50
 msgid " away"
-msgstr " depuis"
+msgstr "entfernt"
 
 #: admin/tdomf-info.php:61
 #: admin/tdomf-info.php:126
 msgid "View Log"
-msgstr "Voir les activités (log)"
+msgstr "Log ansehen"
 
 #: admin/tdomf-info.php:98
 msgid "Active Sessions"
-msgstr "Sessions actives"
+msgstr "Aktive Sitzungen"
 
 #: admin/tdomf-info.php:99
 #, php-format
 msgid "There is currently %d active sessions."
-msgstr "Il y a actuellement %d sessions actives."
+msgstr "Es gibt aktuelle %d aktive Sitzungen."
 
 #: admin/tdomf-info.php:102
 msgid "Session Key"
-msgstr "Clé de session"
+msgstr "Sitzungsschlüssel"
 
 #: admin/tdomf-info.php:103
 msgid "Idle"
-msgstr "Idle"
+msgstr "Leerlauf"
 
 #: admin/tdomf-info.php:104
 msgid "Session Data"
-msgstr "Données de session"
+msgstr "Sitzungsdaten"
 
 #: admin/tdomf-info.php:207
 msgid "TDOMF Debug"
-msgstr "débogage TDOMF"
+msgstr "TDOMF Fehlersuche"
 
 #: admin/tdomf-info.php:215
 msgid "View as Text (useful for pasting into emails)"
-msgstr "Voir comme du texte (utile pour insérer dans les emails)"
+msgstr "Als Text ansehen (sinnvoll zum kopieren in Emails)"
 
 #: admin/tdomf-info.php:217
 msgid "View as HTML raw (useful for pasting into html supported forums and emails)"
-msgstr "Voir en HTML (utile pour insérer dans les forums et emails qui supportent HTML)"
+msgstr "Als HTML ansehen (sinnvoll zum kopieren in Emails oder Foren, welche HTML unterstützen)"
 
 #: admin/tdomf-log.php:17
 msgid "Log cleared."
-msgstr "Fichers activité (log) effacé."
+msgstr "Log geleert"
 
 #: admin/tdomf-log.php:34
 #: admin/tdomf-overview.php:106
 msgid "Latest Activity"
-msgstr "Dernière(s) activité(s)"
+msgstr "Neueste Aktivitäten"
 
 #: admin/tdomf-manage.php:206
 msgid "Previous Banned Users"
-msgstr "Précédents utilisateurs bannis "
+msgstr "Gebannte Benutzer"
 
 #: admin/tdomf-manage.php:207
 #, php-format
 msgid "Last %d Banned Users"
-msgstr "%d derniers utilisateurs bannis"
+msgstr "Die neuesten %d gebannten Benutzer"
 
 #: admin/tdomf-manage.php:209
 msgid "Previous Trusted Users"
-msgstr "Utilisateurs de Confiance précédents"
+msgstr "Vertrauenswürde Benutzer"
 
 #: admin/tdomf-manage.php:210
 #, php-format
 msgid "Last %d Trusted Users"
-msgstr "%d derniers Utilisateurs de Confiance"
+msgstr "Die neuesten %d vertrauenswürdigen Benutzer"
 
 #: admin/tdomf-manage.php:212
 msgid "Previous Submitters"
-msgstr "Déposants précédents"
+msgstr "Beitragende"
 
 #: admin/tdomf-manage.php:213
 #, php-format
 msgid "Last %d Submitters"
-msgstr "%d derniers déposants"
+msgstr "Die neuesten %d Beitragenden"
 
 #: admin/tdomf-manage.php:216
 msgid "You can ban (and un-ban) any registered user. This means the user cannot use the forms. It has no impact on anything else. i.e. they can still read, comment and post. You can also make a user \"trusted\". This means that anything they submit using the form is automatically published."
-msgstr "Vous pouvez bannir (ou dé-bannir) n'importe quel utilisateur enregistré. Cela signifie qu'il ne pourra pas utiliser les formulaires. Cela n'a de conséquence sur rien d'autre : il peuvent continuer à lire, commenter et publier dans le processus normal de Wordpress. Vous pouvez egalement déclarer un utilisateur \"de confiance\", cela a pour effet de publier automatiquement ses dépôts."
+msgstr "Sie können beliebige registrierte Benutzer bannen (oder den Bann aufheben). Das bedeutet, dass der Benutzer das Formular nicht benutzen darf. Dies hat keine Einfluß auf den Rest des Blogs: dieser Benutzer kann weiterhin Beiträge lesen und Kommentare schreiben. Sie können einen Benutzer auch als \"vertrauenswürdig\" markieren. Das bedeutet, dass sämtliche Beiträge ohne vorherige Freigabe sofort veröffentlicht werden."
 
 #: admin/tdomf-manage.php:218
 msgid "Manage Submitter IPs &raquo;"
@@ -610,23 +610,23 @@ msgstr "Gérer les adresses IP des déposants &raquo;"
 #: admin/tdomf-manage.php:222
 #: admin/tdomf-manage.php:422
 msgid "Filter Users"
-msgstr "Filtrer les utilisateurs"
+msgstr "Benutzer filtern"
 
 #: admin/tdomf-manage.php:224
 msgid "All Submitters"
-msgstr "Tous les déposants"
+msgstr "Alle Benutzer"
 
 #: admin/tdomf-manage.php:225
 msgid "Banned Users"
-msgstr "Utilisateurs bannis"
+msgstr "Gebannte Benutzer"
 
 #: admin/tdomf-manage.php:226
 msgid "Trusted Users"
-msgstr "Utilisateurs de Confiance"
+msgstr "Vertrauenswürdige Benutzer"
 
 #: admin/tdomf-manage.php:234
 msgid "There are no users to moderate with this filter."
-msgstr "Es gibt keine moderierbaren Benutzer mit diesem Filter"
+msgstr "Es gibt keine Benutzer mit diesen Filterkriterien"
 
 #: admin/tdomf-manage.php:272
 #: admin/tdomf-moderation.php:332
@@ -649,11 +649,11 @@ msgstr "Rolle"
 #: admin/tdomf-manage.php:472
 #: admin/tdomf-moderation.php:339
 msgid "Status"
-msgstr "Statut"
+msgstr "Status"
 
 #: admin/tdomf-manage.php:277
 msgid "Approved<br/>(Submitted)"
-msgstr "Approuvé<br/>(Déposé)"
+msgstr "Anerkannt<br/>(Übertragen)"
 
 #: admin/tdomf-manage.php:313
 #: admin/tdomf-moderation.php:382
@@ -668,7 +668,7 @@ msgstr "-"
 #: admin/tdomf-manage.php:327
 #: admin/tdomf-manage.php:501
 msgid "Un-ban"
-msgstr "Bannung aufheben"
+msgstr "Bann aufheben"
 
 #: admin/tdomf-manage.php:329
 #: admin/tdomf-manage.php:356
@@ -679,12 +679,12 @@ msgstr "Bannen"
 
 #: admin/tdomf-manage.php:336
 msgid "Un-trust"
-msgstr "Enlever de Confiance"
+msgstr "Nich vertrauenswürdig"
 
 #: admin/tdomf-manage.php:338
 #: admin/tdomf-manage.php:357
 msgid "Trust"
-msgstr "De Confiance"
+msgstr "Vertrauenswürdig"
 
 #: admin/tdomf-manage.php:358
 #: admin/tdomf-manage.php:526
@@ -695,26 +695,26 @@ msgstr "Zurücksetzen"
 #: admin/tdomf-manage.php:535
 #: admin/tdomf-moderation.php:492
 msgid "Previous Entries"
-msgstr "Entrées Précédentes"
+msgstr "Vorige Einträge"
 
 #: admin/tdomf-manage.php:371
 #: admin/tdomf-manage.php:539
 #: admin/tdomf-moderation.php:496
 msgid "Next Entries"
-msgstr "Entrées Suivantes"
+msgstr "Nächste Einträge"
 
 #: admin/tdomf-manage.php:409
 msgid "Previous Banned IPs"
-msgstr "Adresses IP bannies précédentes"
+msgstr "Gebannte IP Adresse"
 
 #: admin/tdomf-manage.php:410
 #, php-format
 msgid "Last %d Banned IPs"
-msgstr "%d dernières adresses IP bannies"
+msgstr "Die neuesten %d gebannten IP Adressen"
 
 #: admin/tdomf-manage.php:412
 msgid "Previous IPs"
-msgstr "Adresses IP précédentes"
+msgstr "Vorige IP Adressen"
 
 #: admin/tdomf-manage.php:413
 #, php-format
@@ -727,19 +727,19 @@ msgstr "Vous pouvez bannir une adresse IP. Cela pour effet que quiconque utilisa
 
 #: admin/tdomf-manage.php:418
 msgid "&laquo; Manage Users"
-msgstr "&laquo; Gérer les utilisateurs"
+msgstr "&laquo; Benutzer verwalten"
 
 #: admin/tdomf-manage.php:424
 msgid "All IPs of submitters"
-msgstr "Toutes les adresses IP des déposants"
+msgstr "Alle IP Adressen der Benutzers"
 
 #: admin/tdomf-manage.php:425
 msgid "Banned IPs"
-msgstr "Adresses IP bannnies"
+msgstr "Gebannte IP Adressen"
 
 #: admin/tdomf-manage.php:433
 msgid "There are no ips to moderate with this filter."
-msgstr "il n'y a pas d'adresse IP à modérer avec ce filtre."
+msgstr "Es gibt keine IP Adressen mit diesen Filterkriterien"
 
 #: admin/tdomf-manage.php:471
 #: admin/tdomf-moderation.php:335
@@ -749,7 +749,7 @@ msgstr "IP"
 
 #: admin/tdomf-manage.php:495
 msgid "Banned"
-msgstr "Banni"
+msgstr "Gebannt"
 
 #: admin/tdomf-manage.php:495
 msgid "Normal"
@@ -758,32 +758,32 @@ msgstr "Normal"
 #: admin/tdomf-manage.php:596
 #, php-format
 msgid "Banned IPs: %s"
-msgstr "Adresses IP bannies: %s"
+msgstr "Gebannte IP Adressen: %s"
 
 #: admin/tdomf-manage.php:616
 #, php-format
 msgid "Reset IPs: %s"
-msgstr "Reinitialiser IPs: %s"
+msgstr "IP Adressen zurücksetzten: %s"
 
 #: admin/tdomf-manage.php:634
 #, php-format
 msgid "IP %s banned"
-msgstr "L'adresse IP %s est bannie"
+msgstr "IP Adresse %s gebannt"
 
 #: admin/tdomf-manage.php:650
 #, php-format
 msgid "IP %s is un-banned"
-msgstr "L'adresse IP %s est dé-bannie"
+msgstr "IP Adresse %s nicht mehr gebannt"
 
 #: admin/tdomf-manage.php:673
 #, php-format
 msgid "Banned users: %s"
-msgstr "Utilisateurs bannis: %s"
+msgstr "Gebannte Benutzer: %s"
 
 #: admin/tdomf-manage.php:688
 #, php-format
 msgid "Reset %s"
-msgstr "Reinitialiser %s"
+msgstr "Zurücksetzten %s"
 
 #: admin/tdomf-manage.php:706
 #, php-format
@@ -808,7 +808,7 @@ msgstr "Réinitialisation Utilisateur %d "
 #: admin/tdomf-moderation.php:222
 #: tdomf.php:677
 msgid "Moderation Disabled"
-msgstr "La modération est désactivée"
+msgstr "Freigabe deaktiviert"
 
 #: admin/tdomf-moderation.php:223
 #, php-format
