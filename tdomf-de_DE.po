@@ -410,11 +410,11 @@ msgstr "Gebannter unregistrierter Benutzer"
 
 #: admin/tdomf-form-hacker.php:391
 msgid "You can use this page to hack the generated HTML code for your form without modifing the code of TDOMF. Please only do this if you know what you are doing. From here you can modify titles, default values, re-arrange fields, etc. etc."
-msgstr "Vous pouvez utiliser cette page pour personnaliser le code HTML de votre formulaire sans changer le code TDOMF. Attention !!! faites le uniquement si vous maitrisez correctement le language. Vous pouvez changer les titres, les valeurs par défaut, ré-organiser les champ ..."
+msgstr "Du kannst auf dieser Seite den generierten HTML Code für Dein Formular bearbeiten, ohne die TDOMF Vorlage zu verändern. Achtung! Bitte tu das nur, wenn Du wirklich weißt, was Du tust. Hier kannst Du Titel, Standardwerte, Feldanordnungen usw. bearbeiten ..."
 
 #: admin/tdomf-form-hacker.php:393
 msgid "Do not modify or remove the \"name\" and \"id\" attributes of fields as this is what the widgets and TDOMF use to get input values for processing"
-msgstr "Ne modifiez pas ou n'enlevez pas les attributs  \"name\" et  \"id\" des champs. Les composants TDOMF s'en servent pour les traitements."
+msgstr "Entferne bitte folgende Attribute nicht aus dem Feldern, das diese von den Widgets und  TDOMF verwendet werden um Felddaten zu übertragen: \"name\" und  \"id\"."
 
 #: admin/tdomf-form-hacker.php:395
 #, php-format
@@ -719,11 +719,11 @@ msgstr "Vorige IP Adressen"
 #: admin/tdomf-manage.php:413
 #, php-format
 msgid "Last %d IPs"
-msgstr "%d dernières adresses IP"
+msgstr "Die neuesten %d IP Adressen"
 
 #: admin/tdomf-manage.php:416
 msgid "You can ban an IP address. This means no-one with this IP address can use the form. It has no impact on anything else. i.e. they can still read, comment and post."
-msgstr "Vous pouvez bannir une adresse IP. Cela pour effet que quiconque utilisant cette adresse ne pourra utiliser le formulaire. Cela n'a d'impact sur rien d'autre : les porteurs de cette adresse pourront continuer à lire, commenter et publier dans le processus normal de Wordpress."
+msgstr "Du kannst eine IP Adresse bannen. Das bedeutet, dass niemand mit dieser IP Adresse Dein Formular verwenden kann. Es hat keinen Einfluß auf den Rest deines Wordpress Blogs. Das heißt, diese Person kann weiterhin Beiträge lesen und Kommentare hinterlassen."
 
 #: admin/tdomf-manage.php:418
 msgid "&laquo; Manage Users"
@@ -788,22 +788,22 @@ msgstr "Zurücksetzten %s"
 #: admin/tdomf-manage.php:706
 #, php-format
 msgid "Trusted users: %s"
-msgstr "Utilisateurs de confiance: %s"
+msgstr "Vertrauenswürdiger Benutzer: %s"
 
 #: admin/tdomf-manage.php:719
 #, php-format
 msgid "User %d banned"
-msgstr "L'utilisateur %d est banni"
+msgstr "Benutzer %d wurde gebannt"
 
 #: admin/tdomf-manage.php:728
 #, php-format
 msgid "User %d trusted"
-msgstr "Utilisateur %d de confiance "
+msgstr "Benutzer %d wurde vertraut"
 
 #: admin/tdomf-manage.php:736
 #, php-format
 msgid "User %d reset"
-msgstr "Réinitialisation Utilisateur %d "
+msgstr "Benutzer %d wurde zurückgesetzt"
 
 #: admin/tdomf-moderation.php:222
 #: tdomf.php:677
@@ -813,7 +813,7 @@ msgstr "Freigabe deaktiviert"
 #: admin/tdomf-moderation.php:223
 #, php-format
 msgid "Moderation is currently disabled. You can enable it on the <a href=\"%s\">options</a> page."
-msgstr "la Moderation est actuelllement désactivée. Vous pouvez l'activer la la page des <a href=\"%s\">options</a>."
+msgstr "Die Freigabe ist derzeit deaktiviert. Du kannst es auf der  <a href=\"%s\">Optionsseite</a> aktivieren."
 
 #: admin/tdomf-moderation.php:260
 msgid "Previous Published Submissions"
@@ -1055,7 +1055,7 @@ msgstr "Corriger automatiquement l'auteur"
 #: admin/tdomf-options.php:82
 #: admin/tdomf-options.php:89
 msgid "Auto Trust Submitter Count"
-msgstr "Compte automatique Déposant de confiance"
+msgstr "Automatischer Vertrauenszähler"
 
 #: admin/tdomf-options.php:85
 msgid "This only counts for submitters who register with your blog and submit using a user account. You can have the user automatically changed to \"trusted\" after a configurable number of approved submissions. Setting it the value to 0, means that a registered user is automatically trusted. Setting it to -1, disables the feature. A trusted user can still be banned."
@@ -1291,7 +1291,7 @@ msgstr "Vous pouvez donner un nom à ce formulaire pour l'indentifier plus facil
 
 #: admin/tdomf-options.php:395
 msgid "Form Description"
-msgstr "Description du Formulaire"
+msgstr "Formular Beschreibung"
 
 #: admin/tdomf-options.php:398
 msgid "You can give a description of this form. The description will also be used on the \"Your Submissions\" page if the form is included. HTML can be used."
@@ -1311,7 +1311,7 @@ msgstr "Incorporer dans la page 'Vos Dépôts'"
 
 #: admin/tdomf-options.php:422
 msgid "Who can access the form?"
-msgstr "Qui peut accéder à ce formulaire ?"
+msgstr "Wer kann das Formular benutzen?"
 
 #: admin/tdomf-options.php:424
 msgid "You can control access to the form based on user users roles. You can chose \"Unregistered Users\" if you want anyone to be able to access the form. If a user can publish their own posts, when they use the form, the post will be automatically published. (Only roles that cannot publish are listed here)."
@@ -1319,7 +1319,7 @@ msgstr "Vous pouvez contrôler l'accès au formulaire en vous basant sur les rol
 
 #: admin/tdomf-options.php:480
 msgid "Unregistered Users"
-msgstr "Utilisateurs non enregistrés"
+msgstr "Unregistrierte Benutzer"
 
 #: admin/tdomf-options.php:489
 msgid "(default role for new users)"
@@ -1327,7 +1327,7 @@ msgstr "(role par défaut pour les nouveaux utilisateurs)"
 
 #: admin/tdomf-options.php:503
 msgid "Who gets notified?"
-msgstr "Qui doit être notifié?"
+msgstr "Wer wird benachrichtigt?"
 
 #: admin/tdomf-options.php:505
 msgid "When a form is submitted by someone who can't automatically publish their entry, someone who can approve or publish the posts will be notified by email. You can chose which roles will be notified. If you select no role, no-one will be notified."
@@ -1336,7 +1336,7 @@ msgstr "Quand un formulaire est soumis par quelqu'un qui n'a pas les droits auto
 #: admin/tdomf-options.php:528
 #: admin/tdomf-options.php:535
 msgid "Default Category"
-msgstr "Catégorie par défaut"
+msgstr "Standard Kategorie"
 
 #: admin/tdomf-options.php:530
 msgid "You can select a default category that the entry will be added to by default. You can change always edit the entry before publishing."
@@ -1344,19 +1344,19 @@ msgstr "Vous pouvez sélectionner une catégorie par défaut à laquelle le dép
 
 #: admin/tdomf-options.php:551
 msgid "Turn On/Off Moderation"
-msgstr "Activer/Désactiver la modération "
+msgstr "Freigabe An/Aus"
 
 #: admin/tdomf-options.php:554
 msgid "<b>It is not recommended to turn off moderation.</b> Someone should always approve submissions from anonoymous users otherwise your webpage becomes a source for spammers and bots. However this feature has been requested too many times to not include. I recommend you use the \"Auto Trust Submitter Count\" instead if you want to enable automatic posting from users. Turning off moderation does not prevent you from banning specific users and IP address or deleting or setting to draft submitted posts."
-msgstr "<b>Il n'est pas recommandé de désactiver la modération.</b> Quelqu'un pourrait toujours approuver les dépôts à partir d'un utilisateur anonyme, et votre page deviendrait une souce de spam. Toutefois cette possibilité a été demandée trop de fois pour ne pas l'inclure... A la place, il est recommandé d'utiliser la fonction  \"Compte automatique Déposant de confiance\" si vous souhaitez autoriser la publication automatique par les utilisateurs. Désactiver la modération ne vous empêche pas de bannir certains utilisateurs ou adresses IP, ou de paramétrer en brouillon les dépôts d'article."
+msgstr "<b>Es ist nicht ratsam die Freigabe zu deaktivieren.</b> Jemand sollte immer die gesendeten Beiträge freigeben, andernfalls wird Deine Webseite ein Ziel für Spammer und Bots. Diese Funktion wurde aber so oft gewünscht, dass wir sie trotzdem bereit stellen. Ich empfehle stattdessen die Benutzung des \"Automatischen Vertrauenszählers\" wenn du automatische Beiträge von Benutzern veröffentlichen möchtest. Das Deaktivieren der Freigabe hindert dich nicht daran, bestimmte Benutzer oder IP Adressen zu bannen, veröffentlichte oder unveröffentlichte Beiträge zu löschen."
 
 #: admin/tdomf-options.php:560
 msgid "Enable Moderation"
-msgstr "Moderation aktivieren"
+msgstr "Freigabe aktivieren"
 
 #: admin/tdomf-options.php:567
 msgid "Redirect to Published Post"
-msgstr "Transformer directement en article publié"
+msgstr "Umleitung zum veröffentlichten Beitrag"
 
 #: admin/tdomf-options.php:571
 #: include/tdomf-form.php:825
@@ -1365,7 +1365,7 @@ msgstr "Vorschau"
 
 #: admin/tdomf-options.php:574
 msgid "If your chosen widgets support preview, you can allow users to preview their post before submission"
-msgstr "Si vous avez choisi des composants supportant la prévisualisation, vous pouvez permettre aux utilisateurs de prévisualiser leur article avant dépôt"
+msgstr "Wenn du das Widget Vorschau ausgewählt hast, kannst du Deinen Benutzern gestatten eine Vorschau ihres Beitrages anzusehen, bevor er gespeichert wird."
 
 #: admin/tdomf-options.php:580
 msgid "Enable Preview"
@@ -1373,11 +1373,11 @@ msgstr "Vorschau aktivieren"
 
 #: admin/tdomf-options.php:584
 msgid "From Email Address for Notifications"
-msgstr "Adresse mail pour la notification"
+msgstr "Absenderadresse für Emailbenachrichtigungen"
 
 #: admin/tdomf-options.php:587
 msgid "You can set a different email address for notifications here. If you leave this field blank, the default for your blog will be used."
-msgstr "Vous pouvez préciser ici une adresse mail différente pour la notification. Si vous laissez le chmap à blanc, les règles par défaut de Wordpress s'appliqueront."
+msgstr "Hier kannst Du eine andere E-Mail Adresse für Benachrichtigungen einstellen. Wenn du das Feld leer läßt, wird die Standard E-Mail Adresse deines Blogs benutzt."
 
 #: admin/tdomf-options.php:593
 msgid "From Email Address"
@@ -1385,15 +1385,15 @@ msgstr "Von E-Mail Adresse"
 
 #: admin/tdomf-options.php:597
 msgid "Maximum number of Widget instances"
-msgstr "Nombre maximum de fonctions composants (widgets)"
+msgstr "Maximale Anzahl von Widget Instanzen"
 
 #: admin/tdomf-options.php:600
 msgid "You can increase or decrease the number of instances of Widgets that support multiple copies. The minimum is at least 1."
-msgstr "Vous pouvez augmenter ou diminuer le nombre de fonctions composants multiples (widgets) autorisées. Au minimum 1."
+msgstr "Du kannst die Anzahl der Widget Instanzen die mehrere Kopien unterstützen erhöhen oder verringern. Das Minimum ist mind. 1"
 
 #: admin/tdomf-options.php:604
 msgid "Widget Instances"
-msgstr "Nombre de composants mutiliples "
+msgstr "Widget Instanzen"
 
 #: admin/tdomf-options.php:611
 msgid "Submit Page instead of Post"
@@ -1417,11 +1417,11 @@ msgstr "Vous pouvez paramétrer que les dépôts émis depuis ce formulaire et q
 
 #: admin/tdomf-options.php:634
 msgid "Seconds (1 day = 86400 seconds)"
-msgstr "Secondes (1 jour = 86400 secondes)"
+msgstr "Sekunden (1 Tag = 86400 Sekunden)"
 
 #: admin/tdomf-options.php:637
 msgid "Throttling Rules"
-msgstr "Règles de Restriction"
+msgstr "Drosselungsregeln"
 
 #: admin/tdomf-options.php:640
 msgid "You can add rules to throttle input based on registered user accounts and/or IP addresses."
@@ -1448,15 +1448,15 @@ msgstr ""
 
 #: admin/tdomf-options.php:652
 msgid "unapproved"
-msgstr "non appouvé"
+msgstr "nicht freigegeben"
 
 #: admin/tdomf-options.php:653
 msgid "any"
-msgstr "tous"
+msgstr "alle"
 
 #: admin/tdomf-options.php:655
 msgid "registered user"
-msgstr "utilisateur enregistré"
+msgstr "Registrierte Benutzer"
 
 #: admin/tdomf-options.php:659
 msgid "Add"
@@ -1483,15 +1483,15 @@ msgstr "Entfernen"
 
 #: admin/tdomf-options.php:681
 msgid "No Throttling Rules currently set."
-msgstr "Pas de Règle de Restriction actuellement paramétrée. "
+msgstr "Es wurde keine Drosselungsregel gesetzt. "
 
 #: admin/tdomf-options.php:684
 msgid "Export/Import Form Settings"
-msgstr "Exporter/Importer les paramètres de formulaire"
+msgstr "Export/Import von Formulareinstellungen"
 
 #: admin/tdomf-options.php:687
 msgid "The textbox below contains the export of data for this form including widgets. If you wish to import a form, paste its settings here and click Import."
-msgstr "La boîte de texte ci dessous contient les données d'exportation ce de formulaire incluant les composants (widgets). Si vous souhaitez importer un formulaire copier ses paramètres ici et cliquez sur Importer"
+msgstr "Das untere Textfeld enthält die exportieren Daten für das Formular inklusive Widget. Wenn du Formulareinstellungen importieren möchtest, füge diese Einstellungen hier ein und klicke Importieren."
 
 #: admin/tdomf-options.php:743
 msgid "AJAX"
@@ -1499,7 +1499,7 @@ msgstr "AJAX"
 
 #: admin/tdomf-options.php:746
 msgid "You can now enable your form to use AJAX to submit posts. The form handles graceful fallback to the non-ajax version for no-javascript browsers and accessibilty."
-msgstr "Vous pouvez maintenant permettre à votre formulaire d'utiliser AJAX. Le formulaire bascule naturellement vers la version non AJAX pour les navigateurs non équipés de javascipt."
+msgstr "Du kannst jetzt AJAX für dein Formular aktivieren, um Beiträge zu speicheren. Das Formular funktioniert auch dann, wenn ein Benutzer Javascript ausgeschaltet hat oder einen Screenreader verwendet."
 
 #: admin/tdomf-options.php:752
 msgid "Use AJAX"
@@ -1520,15 +1520,15 @@ msgstr "Neues Formular  &raquo;"
 
 #: admin/tdomf-options.php:912
 msgid "Submit A Post"
-msgstr "Soumettre en Article"
+msgstr "Beitrage speichern"
 
 #: admin/tdomf-options.php:1019
 msgid "Form import successful<br/>"
-msgstr "Le formulaire a été importé avec succès<br/>"
+msgstr "Formularimport war erfolgreich<br/>"
 
 #: admin/tdomf-options.php:1022
 msgid "Form import failed<br/>"
-msgstr "L'importation du formulaire a échoué<br/>"
+msgstr "Formularimport ist fehlgeschlagen</br>"
 
 #: admin/tdomf-options.php:1033
 #, php-format
@@ -1538,36 +1538,36 @@ msgstr "Une page avec le formualire a été créée. <a href='%s'>Voir la page &
 #: admin/tdomf-options.php:1122
 #, php-format
 msgid "The key: %s has not been recognised by akismet. Spam protection has been disabled."
-msgstr "La clé: %s n'a pas été reconnue par Akismet. La protection spam a été désactivée"
+msgstr "Der Schlüssel: %s wurde von Akismet nicht akzeptiert. SPAM Schutz wurde deaktiviert."
 
 #: admin/tdomf-options.php:1233
 #, php-format
 msgid "Saved Options for Form %d. <a href='%s'>See your form &raquo</a>"
-msgstr "Options sauvegardées pour le formulaire %d. <a href='%s'>Voir votre formulaire &raquo</a>"
+msgstr "Gespeicherte Optionen für das Formular %d. <a href='%s'>Formular ansehen &raquo;</a>"
 
 #: admin/tdomf-options.php:1235
 #, php-format
 msgid "Saved Options for Form %d."
-msgstr "Options sauvegardées pour le formulaire %d."
+msgstr "Optionen für das Formular %d wurden gespeichert."
 
 #: admin/tdomf-options.php:1273
 #, php-format
 msgid "Form %d deleted.<br/>"
-msgstr "Formulaire %d effacé.<br/>"
+msgstr "Formular %d gelöscht.<br/>"
 
 #: admin/tdomf-options.php:1275
 #, php-format
 msgid "Could not delete Form %d!<br/>"
-msgstr "Das Formular kann nicht gelöscht werden %d!<br/>"
+msgstr "Das Formular konnte nicht gelöscht werden %d!<br/>"
 
 #: admin/tdomf-options.php:1278
 msgid "You cannot delete the last form! There must be at least one form in the system.<br/>"
-msgstr "Vous ne pouvez pas effacer le dernier formulaire! Il doit y avoir au moins un formulaire dans le système.<br/>"
+msgstr "Du kannst das letzte Formular nicht löschen! Es muss immer mindestens ein Formular im System hinterlegt sein.</br>"
 
 #: admin/tdomf-options.php:1281
 #, php-format
 msgid "Form %d is not valid!<br/>"
-msgstr "Das Formular  %d ist nicht valide!<br/>"
+msgstr "Das Formular  %d ist nicht gültig!<br/>"
 
 #: admin/tdomf-options.php:1292
 #, php-format
